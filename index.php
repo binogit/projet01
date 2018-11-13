@@ -1,5 +1,6 @@
 <?php
 //test de connexion base RDS AWS
+//test commentaire
 
 $VALEUR_hote='binodb.cwudsllfo6pa.eu-west-3.rds.amazonaws.com';
 $VALEUR_port='3306';
