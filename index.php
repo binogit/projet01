@@ -2,6 +2,7 @@
 <header>
 </header>
 <body>
+<div style="width:30%;margin-left:30%;">
 <fieldset>
 <legend align="center">
 list des users RDS
@@ -23,5 +24,6 @@ while( $resultat = $resultats->fetch() )
 $resultats->closeCursor();
 ?>
 </fieldset>
+</div>
 </body>
 </html>
