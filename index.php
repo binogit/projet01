@@ -1,7 +1,12 @@
+<html>
+<header>
+</header>
+<body>
+<fieldset>
+<legend align="center">
+list des users RDS
+</legend>
 <?php
-//test de connexion base RDS AWS
-//test commentaire
-
 $VALEUR_hote='binodb.cwudsllfo6pa.eu-west-3.rds.amazonaws.com';
 $VALEUR_port='3306';
 $VALEUR_nom_bd='bd01';
@@ -16,5 +21,7 @@ while( $resultat = $resultats->fetch() )
         echo 'user : '.$resultat->nom.'<br>';
 }
 $resultats->closeCursor();
-
 ?>
+</fieldset>
+</body>
+</html>
